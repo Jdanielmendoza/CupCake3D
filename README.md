@@ -1,8 +1,33 @@
-# React + Vite
+# 3D Cupcake Project 🎂
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases a visually appealing 3D cupcake, created using **React Three Fiber (R3F)** and **Three.js**. The interactive and dynamic design brings the cupcake to life, offering a smooth and engaging user experience. 
 
-Currently, two official plugins are available:
+## Features
+- **3D Rendering**: Powered by **Three.js** for realistic visuals.
+- **React Three Fiber**: Simplifies the integration of Three.js with React.
+- **Dynamic Flavor Selection**: Change cupcake flavors interactively with R3D integration.
+- **Smooth Animations**: Enhancing user engagement with visually appealing effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: For building the user interface.
+- **React Three Fiber (R3F)**: A React renderer for Three.js.
+- **Three.js**: For 3D graphics and rendering.
+- **R3D**: For additional 3D interactivity.
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+Enjoy exploring the 3D cupcake and its customizable flavors! 🎉
+
+--- 
