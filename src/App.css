@@ -1,0 +1,65 @@
+#root {
+  max-width: 450px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  --tea-green : #CCD5AE; 
+  --Beige : #E9EDC9 ; 
+  --Cornsik : #FEFAE0; 
+  --Papaya-Whip : #FAEDCD; 
+  --Buff : #D4A373;
+  --dark : #50504F; 
+  --white-100 : #F8F7FF;  
+}
+body{
+  width: 100%; 
+  height: 100%;
+  min-height: 100dvh;
+  max-height: 100dvh;
+}
+.container__app{
+  width: 100%;
+  height: 100%;
+  min-height: 100dvh;
+  background: linear-gradient(var(--Buff), var(--Papaya-Whip));
+  padding: 10px 15px;
+  position: relative;
+}
+.title__app{
+  font-family: 'Birthstone', cursive;
+  font-size: 48px;
+  color: var(--dark);
+}
+.container__canvas{
+  width: 100%;
+  aspect-ratio: 6/5;
+}
+.container__flavors__opt{
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.title__Flavor{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--dark);
+  font-family: 'Onest Variable', sans-serif;
+  font-weight: 800;
+  text-align: start;
+  margin: 10px 0;
+}
+.title__cream{
+  margin: 0;
+}
+.switch__container:first-child{
+  margin-top: 40px;
+}
+.switch__container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}

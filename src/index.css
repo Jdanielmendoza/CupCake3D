@@ -1,0 +1,22 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FEFAE0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --tea-green : #CCD5AE; 
+  --Beige : #E9EDC9 ; 
+  --Cornsik : #FEFAE0; 
+  --Papaya-Whip : #FAEDCD; 
+  --Buff : #D4A373;
+  --dark : #50504F; 
+  --white-100 : #F8F7FF;  
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

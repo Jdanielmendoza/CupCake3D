@@ -1,0 +1,32 @@
+/* From Uiverse.io by Praashoo7 */
+button {
+  outline: none;
+  color: #50504f;
+  
+  border: 2px dashed #fefae0;
+  border-radius: 15px;
+  background-color: #d4a373;
+  box-shadow: 0 0 0 4px #d4a373, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.1s ease-in-out, 0.4s color;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Onest Variable", sans-serif;
+  min-width: 300px;
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  width: calc(100% - 30px);
+  display: flex;
+}
+
+button:active {
+  transform: translateX(0.1em) translateY(0.1em);
+  box-shadow: 0 0 0 4px #d4a373, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+.link__button{
+  width: 100%;
+  padding: 15px;
+  height: 100%;
+  text-decoration: none;
+  color: #50504f;
+}

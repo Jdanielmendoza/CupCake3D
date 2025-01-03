@@ -1,0 +1,24 @@
+.opt__label{
+    background-color: var(--Cornsik);
+    color: var(--Buff);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: 'Onest Variable', sans-serif;
+    font-weight: 700;
+    transition: all .2s;
+    box-shadow: 0 4px 5px rgb(32, 32, 32,25%);
+}
+.input__opt{
+    appearance: none; /* Oculta el estilo predeterminado del navegador */
+    -webkit-appearance: none; /* Para compatibilidad con navegadores basados en WebKit */
+    -moz-appearance: none; /* Para compatibilidad con Firefox */
+    outline: none; /* Quita el borde de enfoque predeterminado */
+}
+.opt__label:hover{
+    transform: scale(1.05);
+}
+.opt__label:has(.input__opt:checked)  {
+    background-color: var(--white-100);
+
+}
