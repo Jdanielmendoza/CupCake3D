@@ -13,7 +13,7 @@ export function Cupcake2({
 }) {
   const { nodes, materials } = useGLTF("/cupcake2.gltf");
   const ref = useRef();
-  useFrame((state, delta) => (ref.current.rotation.y += delta * 0.2));
+  useFrame((state, delta) => (ref.current.rotation.y += delta * 0.4));
 
   return (
     <group {...props} dispose={null} ref={ref}>
